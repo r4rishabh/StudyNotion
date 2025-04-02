@@ -10,8 +10,8 @@ https://study-notion-phi-ivory.vercel.app/
 
 - [Introduction](#introduction)
 - [System Architecture](#System-Architecture)
-   -[Front End](#Front-End)
-   -[Back End](#Back-End)
+- [Front End](#Front-End)
+- [Back End](#Back-End)
 - [API Design](#API-Design)
 - [Installation](#installation)
 - [Configuration](#Configuration)
@@ -67,7 +67,7 @@ The back-end of the platform is built using NodeJS and ExpressJS, providing APIs
 - **Cloud-based Media Management:**  StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
 - **Markdown Formatting:**  Course content in document format is stored in Markdown format, allowing for easier display and rendering on the front-end.
 
-  ###Back-end Frameworks, Libraries, and Tools
+  ### Back-end Frameworks, Libraries, and Tools
 
   The back-end of StudyNotion uses various frameworks, libraries, and tools to ensure its functionality and performance, including:
   - **Node.js:**  Used as the primary framework for the back-end.
