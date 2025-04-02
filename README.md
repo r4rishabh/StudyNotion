@@ -99,7 +99,7 @@ The StudyNotion platform's API is designed following the REST architectural styl
    npm install
 
 
-##Configuration
+## Configuration
 1. Set up a MongoDB database and obtain the connection URL.
 2.Create a .env file in the root directory with the following environment variables:
    ```bash
