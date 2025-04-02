@@ -52,7 +52,7 @@ For Instructor:
 - **Course Management Pages:** A brief introduction to the platform with links to the course list and user details.
 - **View and Edit Profile Details:** A brief introduction to the platform with links to the course list and user details.
 
-###Front-end Tools and Libraries
+### Front-end Tools and Libraries
 
 To build the front-end, we use frameworks and libraries such as ReactJS, CSS, and Tailwind for styling, and Redux for state management.
 
