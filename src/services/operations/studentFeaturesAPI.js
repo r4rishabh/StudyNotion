@@ -66,7 +66,7 @@ export async function BuyCourse(
 
     // Opening the Razorpay SDK
     const options = {
-      key: process.env.VITE_REACT_RAZORPAY_KEY,
+      key: process.env.REACT_APP_RAZORPAY_KEY,
       currency: orderResponse.data.data.currency,
       amount: `${orderResponse.data.data.amount}`,
       order_id: orderResponse.data.data.id,
@@ -94,6 +94,7 @@ export async function BuyCourse(
     toast.error("Could Not make Payment.")
   }
   toast.dismiss(toastId)
+  console.log("Environment Variable :", process.env.VITE_REACT_RAZORPAY_KEY )
 }
 
 // Verify the Payment
