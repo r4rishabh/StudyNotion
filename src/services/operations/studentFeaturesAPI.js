@@ -94,7 +94,7 @@ export async function BuyCourse(
     toast.error("Could Not make Payment.")
   }
   toast.dismiss(toastId)
-  console.log("Environment Variable :", process.env.VITE_REACT_RAZORPAY_KEY )
+ 
 }
 
 // Verify the Payment
