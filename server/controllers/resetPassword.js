@@ -13,6 +13,7 @@ exports.resetPasswordToken = async (req, res) => {
       })
     }
     const token = crypto.randomBytes(20).toString("hex")
+    
 
     const updatedDetails = await User.findOneAndUpdate(
       { email: email },
